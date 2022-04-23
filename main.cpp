@@ -1,6 +1,6 @@
 #include <iostream>
 #include "IntArray.h"
-
+//Add new comment
 using namespace std;
 int main() {
     const int SIZE=10;
