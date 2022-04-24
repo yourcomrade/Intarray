@@ -13,6 +13,7 @@ private:
 public:
     IntArray(int);//constructor
     IntArray(const IntArray &);//Copy Constructor
+    IntArray& operator=(const IntArray&);//Copy assignment
     ~IntArray();//Destructor
     int size()const//return the array size
     {return arraySize;}
